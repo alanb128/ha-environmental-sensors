@@ -16,3 +16,19 @@ Stylish temperature and humidity sensor with display and MQTT
 If not using the display, you can use an LED instead:
 - bi-color LED
 - two 470 ohm resistors
+
+
+## Software
+
+Install Circuitpython
+
+Add the following libraries to the Lib folder on the device:
+
+- adafruit_minimqtt
+- adafruit_display_text
+- adafuit_bitmap_font
+- adafuit_ticks
+- adafruit_st7735r
+- adafruit_sht4x
+- adafruit_connection_manager
+
