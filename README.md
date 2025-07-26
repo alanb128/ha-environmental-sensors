@@ -24,7 +24,13 @@ If not using the display, you can use an LED instead:
 
 3D print the top, bottom, and insulator. Then use the photos below to help assemble the unit.
 
+<img src="/mini/images/mini-01.jpg">
 
+<img src="/mini/images/mini-02.jpg">
+
+<img src="/mini/images/mini-03.jpg">
+
+<img src="/mini/images/mini-04.jpg">
 
 ### Software
 
