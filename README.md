@@ -22,7 +22,7 @@ If not using the display, you can use an LED instead:
 
 ### Assembly
 
-3D print the top, bottom, and insulator. Then use the photos below to help assemble the unit.
+3D print the top, bottom, and insulator. Then use the photos below to help assemble the unit. The file `schematic-mini.pdf` shows how to wire everything together.
 
 <img src="/mini/images/mini-01.jpg">
 
