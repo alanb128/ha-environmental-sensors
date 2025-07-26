@@ -50,3 +50,9 @@ Add the following libraries to the Lib folder on the device: (You can find them 
 - adafruit_sht4x
 - adafruit_connection_manager
 
+### Operation
+
+Provide 5v 1A or greater to the Pico's mico usb port to power the device and start the code automatically. Update the settings file to publish via MQTT.
+
+## Maxi
+
