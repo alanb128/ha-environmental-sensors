@@ -3,7 +3,7 @@ Two different sensor projects that can be used standalone or with Home Assistant
 
 ## Mini-sensor
 
-This one is designed to be inexpensive and easy to build. The parts should cost around $25.
+This one is designed to be inexpensive and easy to build. The parts should cost around $25. It measures temperature and humidity, and can publish the sensor readings to Home Assistant.
 
 ### Hardware List
 
@@ -20,12 +20,19 @@ If not using the display, you can use an LED instead:
 - bi-color LED
 - two 470 ohm resistors
 
+### Assembly
+
+3D print the top, bottom, and insulator. Then use the photos below to help assemble the unit.
+
+
 
 ### Software
 
 [Download and install](https://circuitpython.org/board/raspberry_pi_pico2_w/) Circuitpython for the Pico 2W. This code was developed and tested on version 9.2.7, but should work on newer versions. 
 
-Copy all of the files in the mini folder to the root of your Pico. (This includes all of the code and icons needed to run the project)
+Copy all of the files in the mini folder to the root of your Pico. (This includes all of the code and icons needed to run the project) You'll be replacing the default code.py file if it already exists.  
+
+Edit the `settings.toml` file with your WiFi SSID and password.
 
 Add the following libraries to the Lib folder on the device: (You can find them in [the bundles](https://circuitpython.org/libraries) for version 9.x)
 
