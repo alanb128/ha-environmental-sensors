@@ -1,0 +1,8 @@
+CIRCUITPY_WIFI_SSID = "your-ssid"
+CIRCUITPY_WIFI_PASSWORD = "your-paswsword"
+TOPIC_PATH = "pico-sensor/office"
+TEMP_TOPIC = "temperature"
+HUMIDITY_TOPIC = "humidity"
+SW_VERSION = "0.4"
+MQTT_HOST = "192.168.1.65"
+MQTT_PORT = 1883
