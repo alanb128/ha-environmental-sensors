@@ -1,8 +1,11 @@
-# round-mini-sensor
-Stylish temperature and humidity sensor with display and MQTT
+# Environmental sensors
+Two different sensor projects that can be used standalone or with Home Assistant
 
+## Mini-sensor
 
-## Hardware List
+This one is designed to be inexpensive and easy to build. The parts should cost around $25.
+
+### Hardware List
 
 - [Raspberry Pi Pico 2W](https://www.raspberrypi.com/products/raspberry-pi-pico-2/) microcontroller
 - The case is based on a "2 Inch 22.5 Degree PVC Elbow Pipe Fitting" [like this one](https://www.amazon.com/dp/B0DZS46D2V)
@@ -18,15 +21,17 @@ If not using the display, you can use an LED instead:
 - two 470 ohm resistors
 
 
-## Software
+### Software
 
-Install Circuitpython
+[Download and install](https://circuitpython.org/board/raspberry_pi_pico2_w/) Circuitpython for the Pico 2W. This code was developed and tested on version 9.2.7, but should work on newer versions. 
 
-Add the following libraries to the Lib folder on the device:
+Copy all of the files in the mini folder to the root of your Pico. (This includes all of the code and icons needed to run the project)
 
+Add the following libraries to the Lib folder on the device: (You can find them in [the bundles](https://circuitpython.org/libraries) for version 9.x)
+
+- adafruit_bitmap_font
 - adafruit_minimqtt
 - adafruit_display_text
-- adafuit_bitmap_font
 - adafuit_ticks
 - adafruit_st7735r
 - adafruit_sht4x
