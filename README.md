@@ -38,6 +38,8 @@ If not using the display, you can use an LED instead:
 
 Copy all of the files in the mini folder to the root of your Pico. (This includes all of the code and icons needed to run the project) You'll be replacing the default code.py file if it already exists.  
 
+You will need to find and download the font file `Helvetica-Bold-16.bdf` to the root of the Pico as well. (I can't host it here due to its proprietary nature.)
+
 Edit the `settings.toml` file with your WiFi SSID and password.
 
 Add the following libraries to the Lib folder on the device: (You can find them in [the bundles](https://circuitpython.org/libraries) for version 9.x)
