@@ -1,9 +1,13 @@
 # Environmental sensors
 Two different sensor projects that can be used standalone or with Home Assistant
 
+<img src="/photos/main_image.jpg">
+
 ## Mini-sensor
 
 This one is designed to be inexpensive and easy to build. The parts should cost around $25. It measures temperature and humidity, and can publish the sensor readings to Home Assistant.
+
+<img src="/photos/mini-01.jpg">
 
 ### Hardware List
 
