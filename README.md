@@ -3,6 +3,8 @@ Two different sensor projects that can be used standalone or with Home Assistant
 
 <img src="/photos/main_image.jpg">
 
+Disclaimer: These devices are not for any safety, medical, or critical usage. It's for hobby education and experimentation only!
+
 ## Mini-sensor
 
 This one is designed to be inexpensive and easy to build. The parts should cost around $25. It measures temperature and humidity, and can publish the sensor readings to Home Assistant.
