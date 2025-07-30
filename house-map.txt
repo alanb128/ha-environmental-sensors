@@ -30,7 +30,7 @@ views:
                   left: 34%
                   '--ha-label-badge-title-font-size': 0em
             image: >-
-              http://192.168.1.65:8123/api/image/serve/c3d8bb768deb164f988fe6583d1ef10e/original?authSig=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJmYmI4ZDkwZTE3MWI0N2NlYjQzNTk2MWE1ZThjYzI1NiIsInBhdGgiOiIvYXBpL2ltYWdlL3NlcnZlL2MzZDhiYjc2OGRlYjE2NGY5ODhmZTY1ODNkMWVmMTBlL29yaWdpbmFsIiwicGFyYW1zIjpbXSwiaWF0IjoxNzUyNDE5MzEwLCJleHAiOjE3NTI1MDU3MTB9.k2rRzBmWY52UoNDU5hlrfVS0JJMSeaApJD7ZLQy9GTs
+              http://192.168.1.65:8123/api/image/serve/c3d8bb768deb164f988fe6583d1ef10e/original?authSig=
             grid_options:
               columns: full
         column_span: 2
