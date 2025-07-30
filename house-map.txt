@@ -1,0 +1,36 @@
+views:
+  - title: Home
+    sections:
+      - type: grid
+        cards:
+          - type: picture-elements
+            elements:
+              - type: state-badge
+                entity: sensor.garage_temperature
+                style:
+                  top: 16%
+                  left: 35%
+                  '--ha-label-badge-title-font-size': 0em
+              - type: state-badge
+                entity: sensor.den_temperature
+                style:
+                  top: 82%
+                  left: 28%
+                  '--ha-label-badge-title-font-size': 0em
+              - type: state-badge
+                entity: sensor.living_temperature
+                style:
+                  top: 62%
+                  left: 85%
+                  '--ha-label-badge-title-font-size': 0em
+              - type: state-badge
+                entity: sensor.office_temperature
+                style:
+                  top: 50%
+                  left: 34%
+                  '--ha-label-badge-title-font-size': 0em
+            image: >-
+              http://192.168.1.65:8123/api/image/serve/c3d8bb768deb164f988fe6583d1ef10e/original?authSig=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJmYmI4ZDkwZTE3MWI0N2NlYjQzNTk2MWE1ZThjYzI1NiIsInBhdGgiOiIvYXBpL2ltYWdlL3NlcnZlL2MzZDhiYjc2OGRlYjE2NGY5ODhmZTY1ODNkMWVmMTBlL29yaWdpbmFsIiwicGFyYW1zIjpbXSwiaWF0IjoxNzUyNDE5MzEwLCJleHAiOjE3NTI1MDU3MTB9.k2rRzBmWY52UoNDU5hlrfVS0JJMSeaApJD7ZLQy9GTs
+            grid_options:
+              columns: full
+        column_span: 2
