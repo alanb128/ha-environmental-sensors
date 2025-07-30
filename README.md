@@ -1,6 +1,8 @@
 # Environmental sensors
 Two different sensor projects that can be used standalone or with Home Assistant
 
+Watch the video: https://youtu.be/DV3xqJKjhDA
+
 <img src="/photos/main_image.jpg">
 
 Disclaimer: These devices are not for any safety, medical, or critical usage. It's for hobby education and experimentation only!
