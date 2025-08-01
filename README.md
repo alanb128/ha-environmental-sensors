@@ -62,11 +62,11 @@ Add the following libraries to the Lib folder on the device: (You can find them 
 
 ### Operation
 
-Provide 5v 1A or greater to the Pico's mico usb port to power the device and start the code automatically. Update the settings file to publish via MQTT.
+Provide 5v 1A or greater to the Pico's micro usb port to power the device and start the code automatically. Update the settings file to publish via MQTT.
 
 ## Maxi
 
-This one has up to ten sensors and is a more advanced project. The full code and some build suggestions are in this repo, but you'll need to improside a little bit for best results.
+This one has up to ten sensors and is a more advanced project. The full code and some build suggestions are in this repo, but you'll need to improvise a little bit for best results.
 
 <img src="/photos/maxi-main.jpg">
 
@@ -88,6 +88,7 @@ This one has up to ten sensors and is a more advanced project. The full code and
 - [VEML7700 Lux Sensor](https://www.adafruit.com/product/4162)
 - [SCD 40](CO2 sensor)
 - [Adafruit PMSA003I Air Quality Breakout](https://www.adafruit.com/product/4632)
+- [4 channel I2C-safe logic level converter](https://www.adafruit.com/product/757)
 - Qwiic/STEMMAQT connectors/cables to connect the sensors together
 - M2.5 spacers, standoffs and hardware for mounting sensors
 - "Reducing" pipe fitting, [like this one](https://www.homedepot.com/p/Charlotte-Pipe-3-in-x-3-in-x-2-in-DWV-PVC-Wye-Reducing-PVC006011400HD/203396277) for the case
@@ -138,7 +139,7 @@ Add the following libraries to the Lib folder on the device: (You can find them 
 
 ### Operation
 
-Provide 5v 4A or greater to the Pico's mico usb port to power the device and start the code automatically. Update the settings file to publish via MQTT.
+Provide 5v 4A or greater to the Pico's VSYS pin to power the device and start the code automatically. Update the settings file to publish via MQTT. Note that most of the I2C sensors need to be powered by the 5V supply and then connected to the Pico through the logic level shifter. (See the schematic)
 
 ## Connecting to Home Assistant
 
