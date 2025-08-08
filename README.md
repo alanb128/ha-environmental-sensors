@@ -73,7 +73,7 @@ This one has up to ten sensors and is a more advanced project. The full code and
 ### Hardware List
 
 - [Raspberry Pi Pico 2W](https://www.raspberrypi.com/products/raspberry-pi-pico-2/) microcontroller
-- The case is based on a "2 Inch 22.5 Degree PVC Elbow Pipe Fitting" [like this one](https://www.amazon.com/dp/B0DZS46D2V)
+- The case is based on a "Reducing" pipe fitting, [like this one](https://www.homedepot.com/p/Charlotte-Pipe-3-in-x-3-in-x-2-in-DWV-PVC-Wye-Reducing-PVC006011400HD/203396277) 
 - Display [Adafruit 1.28" 240x240 Round TFT LCD]([https://www.adafruit.com/product/3533](https://www.adafruit.com/product/6178))
 - 12mm x 12mm momentary tactile buttons (three)
 - Some wire or ribbon cable, 28AWG or similar
@@ -91,9 +91,9 @@ This one has up to ten sensors and is a more advanced project. The full code and
 - [4 channel I2C-safe logic level converter](https://www.adafruit.com/product/757)
 - Qwiic/STEMMAQT connectors/cables to connect the sensors together
 - M2.5 spacers, standoffs and hardware for mounting sensors
-- "Reducing" pipe fitting, [like this one](https://www.homedepot.com/p/Charlotte-Pipe-3-in-x-3-in-x-2-in-DWV-PVC-Wye-Reducing-PVC006011400HD/203396277) for the case
 - [3cm x 7cm proto board](https://www.adafruit.com/product/4784) - cut as needed
 - 5V, 4A power supply
+- The top dome (optional) is a CCTV clear dome [like this one](https://www.amazon.com/dp/B07L6GLTNP)
 
 Optional:
 - blue LED and resistor
