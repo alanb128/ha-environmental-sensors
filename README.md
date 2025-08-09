@@ -140,7 +140,7 @@ Add the following libraries to the Lib folder on the device: (You can find them 
 
 ### Operation
 
-Provide 5v 4A or greater to the Pico's VSYS pin to power the device and start the code automatically. Update the settings file to publish via MQTT. Note that most of the I2C sensors need to be powered by the 5V supply and then connected to the Pico through the logic level shifter. (See the schematic)
+Provide 5v 4A or greater to the Pico's VSYS pin to power the device and start the code automatically. Update the settings file to publish via MQTT. Note that most of the I2C sensors need to be powered by the 5V supply and then connected to the Pico through the logic level shifter. (See the schematic) When trying to power everything on the I2C bus with 3V, the sensors would brown out every few seconds. Make sure the sensors you choose are all 5V tolerant. (The ones in the parts list are.)
 
 ## Connecting to Home Assistant
 
