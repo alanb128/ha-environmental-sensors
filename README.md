@@ -86,7 +86,7 @@ This one has up to ten sensors and is a more advanced project. The full code and
 - [DPS 310 Pressure sensor](https://www.adafruit.com/product/4494)
 - [Accelerometer](https://www.adafruit.com/product/2809)
 - [VEML7700 Lux Sensor](https://www.adafruit.com/product/4162)
-- [SCD 40](CO2 sensor)
+- [SCD 40](https://www.adafruit.com/product/5187) CO2 sensor
 - [Adafruit PMSA003I Air Quality Breakout](https://www.adafruit.com/product/4632)
 - [4 channel I2C-safe logic level converter](https://www.adafruit.com/product/757)
 - [Adafruit 1.28" 240x240 Round TFT LCD](https://www.adafruit.com/product/6178)
@@ -148,4 +148,4 @@ You will need an MQTT broker running on your network. [Mosquitto](https://mosqui
 
 Then, [add the sensors](https://www.home-assistant.io/integrations/sensor.mqtt/) and binary sensors to your configuration.yaml file in Home Assistant. 
 
-For an example of the House Map dashboard configuration, see the `house-map.txt` file in this repo. Note that is uses an image uploaded to the Home Assistant media folder.
+For an example of the House Map dashboard configuration, see the `house-map.txt` file in this repo. Note that it uses an image uploaded to the Home Assistant media folder.
