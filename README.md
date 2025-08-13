@@ -74,11 +74,10 @@ This one has up to ten sensors and is a more advanced project. The full code and
 
 - [Raspberry Pi Pico 2W](https://www.raspberrypi.com/products/raspberry-pi-pico-2/) microcontroller
 - The case is based on a "Reducing" pipe fitting, [like this one](https://www.homedepot.com/p/Charlotte-Pipe-3-in-x-3-in-x-2-in-DWV-PVC-Wye-Reducing-PVC006011400HD/203396277) 
-- Display [Adafruit 1.28" 240x240 Round TFT LCD]([https://www.adafruit.com/product/3533](https://www.adafruit.com/product/6178))
 - 12mm x 12mm momentary tactile buttons (three)
 - Some wire or ribbon cable, 28AWG or similar
 - [Swirly Aluminum Grids](https://www.adafruit.com/product/5774) (mix and match, cut to size if needed)
-- [Basic PIR Sensor]([https://www.adafruit.com/product/4885](https://www.adafruit.com/product/4667)) (or SHT41, SHT45)
+- [Basic PIR Sensor like the BL412](https://www.adafruit.com/product/4667) 
 - [Adafruit EYESPI breakout board](https://www.adafruit.com/product/5613) For connecting display ribbon cable to the Pico
 - [MAX 4466 electret microphone](https://www.adafruit.com/product/1063)
 - [Tiny Code Reader from Useful Sensors](https://www.adafruit.com/product/5744)
