@@ -772,8 +772,10 @@ while True:
         show_reading()
     # Poll the message queue
     if mqtt_connect:
-        
-        mqtt_client.loop()
+        try:
+            mqtt_client.loop()
+        except:
+            print("Error from MQTT client library...")
     # For centering:
     tx = pages[page]
     if len(tx) == 2:
